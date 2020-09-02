@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Projeto Busca </title>
+    <link rel="icon"
+    type="image/jpg"
+     href="imag/Projeto.png">
+
+     <!-- JS --> 
+    <link rel="stylesheet" type="text/css" href="bibliotecas/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="bibliotecas/slick-1.8.1/slick/slick-theme.css">
+
+    <!-- RODAPÉ e MODAL--> 
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- css --> 
+    <link rel="stylesheet" href="./css/main.css">
+    
+   
+</head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="herder-1">
+                <div class="logo">
+                    <img src="imag/logo.png" width= "90px" height= "29px">
+                </div>
+
+                <div class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="imag/face.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./imag/tw.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./imag/linkedin.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+
+
+
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Cadastro</a></li>
+                    <li><a href="#">cursos</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="busca">
+            <input placeholder="Pesquisar Cursos" type="text" />
+        </div>
+    </main>
+
+
+
+
+
+
+                                                                    <!-- INICIO --> 
+
+    <div class="inicio">
+        <h1> Olá, esse é o <strong>PROJETO BUSCA</strong>.  </h1>
+        <p>O SITE PARA DESCOBRIR <b>PROJETOS INCRÍVEIS</b>, 
+        QUE ESTÃO <I>ESCONDIDOS</I> EM SALVADOR </p>
+        
+    </div>  
+
+                                                                  <!-- CARROSSEL--> 
+                                                                 
+    <div class="carrossel">
+        <h1>Vamos conhecer os projetos?</h1> 
+   <div class="projeto-um">
+       <div class="zoom">
+            <div><img src="imag/pracatummm.jpg" ></div>
+        </div>
+
+        <div class="zoom">
+            <div><img src="imag/qladeira.jpg" ></div>
+        </div>
+
+        <div class="zoom">
+            <div><img src="imag/juntasalvador.jpg"></div>
+        </div>
+
+        <div class="zoom">
+            <div><img src="imag/axe.jpg" ></div>
+        </div>
+
+        <div class="zoom">
+            <div><img src="imag/abac.jpg" ></div>
+        </div>
+    
+        <div class="zoom">
+            <div><img src="imag/Socialv.png" ></div>
+        </div>
+
+        <div class="zoom">
+        <div><img src="imag/parque-social.png"></div>
+    </div>
+
+
+    </div>
+    </div>
+
+                                                                    <!-- O QUE É --> 
+
+    <div class="col-100 o-que-e" >
+             
+        <div class="cont">
+
+            <div class="col-3 texto-ex">
+                <img src="./imag/ps1.png"  width="130px" />
+                    <h3><b> Quem pode utilizar?</b></h3>
+                <p>Toda a comunidade, com foco em
+                   <b>adolescentes e crianças.</b>
+                </p>
+    </div>
+
+        <div class="col-3 texto-ex"    style="margin-top: 6em;">
+                     <img src="./imag/ps1.png"  width="130px" />
+                        <h3><b>O que é um projeto social?</b></h3>
+                        <p>É um plano ou um esforço solidário que tem como objetivo melhorar
+                         um ou mais aspectos de uma sociedade, potencializando a cidadania.</p>
+    </div>
+
+    <div class="col-3 texto-ex">
+        <img src="./imag/ps1.png"  width="130px" />
+         <h3><b>Como funciona?</b> </h3>                                                                                                                                                                                                                                                                                   
+         <p>Cada intsituição tem a sua conduta, mas são projetos que visam o desenvolvimento dos jovens/crianças de forma gratuita.   
+     </div>
+     </div>
+     </div>
+  
+
+
+                                                                    <!-- PROJETOS --> 
+
+
+
+     <div class="col-100 bloco-imagens-texto">
+        <div class="textoh1"> 
+            <h1> PROJETOS</h1> <span id="projetos" class="projetos"></span> </div>
+            
+            <div class="content" style="margin-left: 5%; float: left;">
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <div class="zoom"> 
+                    <img src="./imagprojeto/juntasalvador.jpg">
+                    <h1><b>JUNTA SALVADOR</b></h1>
+                    <p> A Junta Salvador é uma iniciativa para auxiliar jovens em busca de musicais e oficinas culturais inspirados na cultura popular brasileira através de suas festas e manifestações. <b>Conta com atividades voltadas para mostrar o quão rico e diverso é a nossa cultura, através da percussão.</b>
+                    </p>
+                </div>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modal-um">Saiba mais</button>
+</div>
+                 
+<div class="col-3 bloco-texto bloco-imagem">
+                    <div class="zoom"> 
+                    <img src="./imagprojeto/pracatum.png">
+                    <h1><b>PRACATUM</b></h1>
+                    <p> A Pracatum é uma organização sem fins lucrativos, que realiza programas educacionais, culturais e de desenvolvimento comunitário. As atividades realizadas estão divididas em dois programas principais: <b>Pracatum - Programa de música e cultura, Pracatum Inglês - Programa que atende crianças e adolescentes  </b>
+                    </p>
+                </div>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modal-dois">Saiba mais</button>
+</div>
+                
+<div class="col-3 bloco-texto bloco-imagem">
+                    <div class="zoom"> 
+                    <img src="./imagprojeto/qladeira.jpg">
+                    <h1><b>QUE LADEIRA É ESSA?</b></h1>
+                    <p>O projeto do Centro Cultural Que Ladeira É Essa?, desenvolve atividades artísticas e 
+                        culturais com a comunidade e regiões vizinhas, como forma de devolver a autoestima do centro historico.<b>Com oficinas, eventos culturais, aulas de jiu-jitsu, judô e capoeira, 
+                        além de preparatórios para o Exame Nacional do Ensino Médio (Enem) e de intervenções artísticas pelo espaço da ladeira</b>
+                    </p>
+                    </div>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#modal-tres">Saiba mais</button>
+</div>
+    
+    
+<div class="col-3 bloco-texto bloco-imagem">
+                    <div class="zoom"> 
+                    <img src="./imagprojeto/abac.jpg">
+                    <h1><b>ABEAC</b></h1>
+                    <p> ABEAC (associação beneficente educação arte e cidadania) é um organização sem fins lucrativos, que foi criada para desenvolver ações culturais e educativas voltada para crianças e jovens. <b>Conta com projetos como: Ginástica, Futebol, Taekwondo e muito mais.</b>
+                    </p>
+                </div>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modal-quatro">Saiba mais</button>
+</div>
+            
+<div class="col-3 bloco-texto bloco-imagem">
+                    <div class="zoom"> 
+                    <img src="./imagprojeto/parque-social.png">
+                    <h1><b>PARQUE SOCIAL</b></h1>
+                    <p>O Parque Social é uma organização sem fins lucrativos, que visa educar jovens e adultos sobre o empreendedorismo social/digital. <b>Conta com projetos como: jovem aprendiz empreendededor, jovem lider empreendededor, sementes culturais</b> e muito mais.
+                    </p>
+                </div>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modal-cinco">Saiba mais</button>
+</div>
+                
+                
+<div class="col-3 bloco-texto bloco-imagem">
+                        <div class="zoom"> 
+                        <img src="./imagprojeto/axe.jpg">
+                        <h1><b>PROJETO AXÉ</b></h1>
+                        <p> O Projeto Axé é uma Organização Não Governamental que trabalha para desenvolver o potencial ilimitado dos jovens, seu projeto auxlia muitos jovens por ano e é patrocinado por grandes empresas.<b>Conta com atividades como: música, dança, canto, capoeira e muito mais. </b>
+                     </p>
+                    </div> 
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#modal-seis">Saiba mais</button>
+</div>
+    
+<div class="col-3 bloco-texto bloco-imagem">
+                        <div class="zoom"> 
+                        <img src="./imagprojeto/Socialv.png">
+                        <h1><b>Escola Social do Varejo</b></h1>
+                        <p>A escola social do varejo promove a formação profissional de jovens entre 17 e 24 anos para o mundo do trabalho, com foco no segmento de varejo.<b> O programa realiza capacitação para a conquista do primeiro emprego formal </b> e atende jovens egressos ou que estejam cursando o 3º ano do Ensino Médio na rede pública.
+                     </p>
+                    </div> 
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#modal-sete">Saiba mais</button>
+</div>
+    
+            </div>
+        </div>       
+    </div>
+
+                                                                <!-- CADASTRO--> 
+    
+<div class="cadastro">
+             <button class="but" data-toggle="modal" data-target="#modal-cadastro">
+                <img src="./imag/cadastro.png" width="400px" />
+                </button> 
+            
+</div>
+        
+                                                                <!-- MODAL --> 
+
+
+ <!-- JUNTA SALVADOR --> 
+    <div class="modal fade" id="modal-um">
+            <div class="modal-dialog">
+                 <div class="modal-content">
+                 <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                         <h4 class="modal-title"><b>JUNTA SALVADOR</b></h4>
+                     </div>
+                     <div class="modal-body">
+                        <table class="table  table-striped">
+                <img src="./imagprojeto/juntasmodal.jpg" alt="imagem crianças">
+                
+                <h3>A "Junta Salvador" realiza projetos incríveis, sobretudo voltado para a população de baixa renda. Seu idealizador, além de trazer alegria e conhecimeto para aqueles que precisam, se torna um ótimo amigo. </h3> <br>
+                   <p> <b>O PROJETO RITMO DA VIDA - A Percussão</b>, como forma educacional, reúne da melhor forma jovens com um único amor: a percussão.
+                </p>
+                            <tr><td><span >Endereço:</span></td><td><span class="" > Rua JJ Seabra, 153 </span></td></tr>
+                            <tr><td><span >Bairro:</span></td><td><span class="">Baixa dos sapateiros</span></td></tr>
+                            <tr><td><span >Cidade:</span></td><td><span class="">Salvador</span></td></tr>	
+                            <tr><td><span >Telefone:</span></td><td><span class="">71 3022-7759</span></td></tr>
+                            
+                            
+                            </table>
+                    </p>
+                   </div>
+                   <div class="modal-footer">
+                        <a href="https://ong-junta-salvador4.webnode.com/"><button type="button" class="botao">Site do projeto</button></a>
+                       
+                        
+                    </div>
+                </div>
+             </div>
+         </div>
+         
+ <!-- PRACATUM --> 
+         <div class="modal fade" id="modal-dois">
+            <div class="modal-dialog">
+                 <div class="modal-content">
+                 <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                         <h4 class="modal-title">PRACATUM</h4>
+                     </div>
+                     <div class="modal-body">
+                        <table class="table  table-striped">
+				
+                            <tr><td><span >Endereço:</span></td><td><span class="" > . </span></td></tr>
+                            <tr><td><span >Bairro:</span></td><td><span class="">.</span></td></tr>
+                            <tr><td><span >Cidade:</span></td><td><span class="">.</span></td></tr>	
+                            <tr><td><span >Telefone:</span></td><td><span class="">.</span></td></tr>
+                            
+                            
+                            
+                            
+                            </table>
+                    </p>
+                   </div>
+                   <div class="modal-footer">
+                    <a href=""><button type="button" class="botao">Site do projeto</button></a>
+                       
+                    </div>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+ <!-- QUE LADEIRA É ESSA? -->          
+         <div class="modal fade" id="modal-tres">
+            <div class="modal-dialog">
+                 <div class="modal-content">
+                 <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                         <h4 class="modal-title">QUE LADEIRA É ESSA?</h4>
+                     </div>
+                     <div class="modal-body">
+                        <table class="table  table-striped">
+				
+                            <tr><td><span >Endereço:</span></td><td><span class="" > . </span></td></tr>
+                            <tr><td><span >Bairro:</span></td><td><span class="">.</span></td></tr>
+                            <tr><td><span >Cidade:</span></td><td><span class="">.</span></td></tr>	
+                            <tr><td><span >Telefone:</span></td><td><span class="">.</span></td></tr>
+                            
+                            
+                            
+                            
+                            </table>
+                    </p>
+                   </div>
+                   <div class="modal-footer">
+                    <a href=""><button type="button" class="botao">Site do projeto</button></a>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+ <!-- ABEAC -->         
+         <div class="modal fade" id="modal-quatro">
+            <div class="modal-dialog">
+                 <div class="modal-content">
+                 <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                         <h4 class="modal-title">ABEAC</h4>
+                     </div>
+                     <div class="modal-body">
+                        <table class="table  table-striped">
+				
+                            <tr><td><span >Endereço:</span></td><td><span class="" > . </span></td></tr>
+                            <tr><td><span >Bairro:</span></td><td><span class="">.</span></td></tr>
+                            <tr><td><span >Cidade:</span></td><td><span class="">.</span></td></tr>	
+                            <tr><td><span >Telefone:</span></td><td><span class="">.</span></td></tr>
+                            
+                            
+                            
+                            
+                            </table>
+                    </p>
+                   </div>
+                   <div class="modal-footer">
+                    <a href=""><button type="button" class="botao">Site do projeto</button></a>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+  <!-- PARQUE SOCIAL-->        
+         <div class="modal fade" id="modal-cinco">
+            <div class="modal-dialog">
+                 <div class="modal-content">
+                 <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                         <h4 class="modal-title">PARQUE SOCIAL</h4>
+                     </div>
+                     <div class="modal-body">
+                        <table class="table  table-striped">
+				
+                            <tr><td><span >Endereço:</span></td><td><span class="" > . </span></td></tr>
+                            <tr><td><span >Bairro:</span></td><td><span class="">.</span></td></tr>
+                            <tr><td><span >Cidade:</span></td><td><span class="">.</span></td></tr>	
+                            <tr><td><span >Telefone:</span></td><td><span class="">.</span></td></tr>
+                            
+                            
+                            
+                            
+                            </table>
+                    </p>
+                   </div>
+                   <div class="modal-footer">
+                    <a href=""><button type="button" class="botao">Site do projeto</button></a>
+                </div>
+                    </div>
+                </div>
+             </div>
+         
+
+<!-- PROJETO AXÉ -->          
+         <div class="modal fade" id="modal-seis">
+            <div class="modal-dialog">
+                 <div class="modal-content">
+                 <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                         <h4 class="modal-title">PROJETO AXÉ</h4>
+                     </div>
+                     <div class="modal-body">
+                        <table class="table  table-striped">
+				
+                            <tr><td><span >Endereço:</span></td><td><span class="" > . </span></td></tr>
+                            <tr><td><span >Bairro:</span></td><td><span class="">.</span></td></tr>
+                            <tr><td><span >Cidade:</span></td><td><span class="">.</span></td></tr>	
+                            <tr><td><span >Telefone:</span></td><td><span class="">.</span></td></tr>
+                            
+                            
+                            </table>
+                    </p>
+                   </div>
+                   <div class="modal-footer">
+                    <a href=""><button type="button" class="botao">Site do projeto</button></a>
+                    </div>
+                </div>
+             </div>
+         </div>
+         
+         
+<!-- ESV -->          
+<div class="modal fade" id="modal-sete">
+    <div class="modal-dialog">
+         <div class="modal-content">
+         <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                 <h4 class="modal-title">ESCOLA SOCIAL DO VAREJO</h4>
+             </div>
+             <div class="modal-body">
+                <table class="table  table-striped">
+                            <img src="./imagprojeto/SVmodal.jpg" alt="ESV">
+                            <h3>Com um projeto incrível, a ESV além de capacitar promove um planejamento de vida e carreira. Os professores são queridos e o aluno recebe um auxílio emocional durante o curso.</h3>
+                            <p> A seleção abre duas vezes por ano, o processo seletivo é um pouco mais extenso, porém o aluno pode tentar inúmeras vezes, até conseguir. 
+                                Com 75% de curso concluído você é encaminhado para entrevistas na aréa e auxiliado por pessoas da ESV.<br>
+                                </P>
+                                            
+                            
+                    <tr><td><span >Cidade:</span></td><td><span class="">Salvador</span></td></tr>	
+                    <tr><td><span >Facebook</span></td><td><span class="">https://www.facebook.com/esvnacional/</span></td></tr>
+                    
+                    
+                    </table>
+            </p>
+           </div>
+           <div class="modal-footer">
+            <a href="https://www.big.com.br/responsabilidade-corporativa/instituto/escola-social"><button type="button" class="botao">Site do projeto</button></a>
+            </div>
+        </div>
+     </div>
+ </div>
+ 
+<!-- CADASTRO --> 
+
+<div class="modal fade" id="modal-cadastro">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+            
+                <h4 class="modal-title">FORMULÁRIO DE CADASTRO</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="txt-nome">Nome da ong:</label>
+                    <input type="text" class="form-control" placeholder="Nome da ong" id="txt-nome">
+                </div>
+                <div class="form-group">
+                    <label for="txt-nome">Nome completo do cadastrante:</label>
+                    <input type="text" class="form-control" placeholder="Nome completo" id="txt-nome">
+                </div>
+                <div class="form-group">
+                    <label for="txt-nome">E-mail da ong:</label>
+                    <input type="text" class="form-control" placeholder="E-mail" id="txt-email">
+                </div>
+                <div class="campo">
+                    <label>Tema:</label>
+                    <label>
+                        <input type="radio" name="tema" value="Arte"> Arte em geral
+                    </label>
+                    <label>
+                        <input type="radio" name="tema" value="Musica"> musica
+                    </label>
+                    <label>
+                        <input type="radio" name="tema" value="cursos"> cursos 
+                    </label>
+                </div>
+<br>
+                <div class="form-group">
+                    <label for="txt-nome">Telefone:</label>
+                    <input type="text" class="form-control" placeholder="Tel" id="txt-tel">
+                </div>
+            
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-success">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+                    
+                           
+               
+                    
+         
+
+                                                                           <!-- RODAPÉ -->
+
+<div class="rodape">
+</div>
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href=""> <img src="imag/logo.png" width= "110px" height= "50px"></a></h2>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Inicio</h5>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Cursos</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Sobre</h5>
+                    <ul>
+                        <li><a href="">O que é o projeto</a></li>
+                        <li><a href="">Quem fez</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Site</h5>
+                    <ul>
+                        <li><a href="https://github.com/larissacarla1/Projeto-Busca">GitHub</a></li>
+                        <li><a href="">TCC</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="https://twitter.com/larissacarla_1/" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100011390344631/" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/larissacarla_1/" class="instagram"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <a href="">
+                        <button type="button" class="btn btn-default">Contato</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>                     </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <!-- RODAPÉ E MODAL --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>,
+    <!-- JS --> 
+    <script type="text/javascript" src="bibliotecas/jquery/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="bibliotecas/jquery/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="bibliotecas/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./bibliotecas/main.js"></script>
+</body>
+
+</html>
